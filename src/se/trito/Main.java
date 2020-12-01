@@ -6,8 +6,5 @@ public class Main {
         TestReader.run("files/test.txt");
 
         Dec01a.run("files/dec01.txt");
-
     }
-
-
 }
