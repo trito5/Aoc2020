@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Dec01b {
     public static void run(String fileName) {
-        System.out.println(" ---- DEC01B ---- ");
+        System.out.println(" ---- DEC01B ----");
         List<Integer> inputs = FileReaderUtil.toIntList(fileName);
 
         for (int i = 0; i < inputs.size(); i++) {
