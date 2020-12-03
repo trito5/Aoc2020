@@ -12,11 +12,7 @@ public class Dec03a {
         int iPos = 0;
 
         for (int j = jPos; j < inputs.size(); j++) {
-            if (iPos + 3 >= inputs.get(0).length()) {
-                iPos = iPos + 3 - inputs.get(0).length();
-            } else {
-                iPos = iPos + 3;
-            }
+            iPos = (iPos + 3) % inputs.get(0).length();
             if (inputs.get(j).charAt(iPos) == '#') {
                 counter++;
             }
