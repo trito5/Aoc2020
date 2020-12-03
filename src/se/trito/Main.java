@@ -6,11 +6,13 @@ public class Main {
         TestReader.run();
         TestClasses.run();
 
-        System.out.println("----------------------------- ");
+        System.out.println("-----------------------------");
 
         Dec01a.run("files/dec01.txt");
         Dec01b.run("files/dec01.txt");
         Dec02a.run("files/dec02.txt");
         Dec02b.run("files/dec02.txt");
+        Dec03a.run("files/dec03.txt");
+        Dec03b.run("files/dec03.txt");
     }
 }

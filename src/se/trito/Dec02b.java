@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Dec02b {
     public static void run(String fileName) {
-        System.out.println(" ---- DEC02B ----");
         List<String> inputs = FileReaderUtil.toStringList(fileName);
         int counter = 0;
         for (String input : inputs) {
@@ -28,6 +27,6 @@ public class Dec02b {
                 counter++;
             }
         }
-        System.out.println("dec 2b: " + counter);
+        System.out.println("Dec02b: " + counter);
     }
 }

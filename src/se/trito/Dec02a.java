@@ -6,7 +6,6 @@ import java.util.List;
 public class Dec02a {
 
     public static void run(String fileName) {
-        System.out.println(" ---- DEC02A ----");
         List<String> inputs = FileReaderUtil.toStringList(fileName);
         int noOfPasswords = 0;
         for (String input : inputs) {
@@ -24,6 +23,6 @@ public class Dec02a {
                 noOfPasswords++;
             }
         }
-        System.out.println("dec 2a: " + noOfPasswords);
+        System.out.println("Dec02a: " + noOfPasswords);
     }
 }
