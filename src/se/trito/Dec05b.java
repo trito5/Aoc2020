@@ -23,7 +23,7 @@ public class Dec05b {
             }
         }
 
-        System.out.println("Dec05b: " + result); //649 is correct
+        System.out.println("Dec05b: " + result);
     }
 
     private static int getSeatId(int row, int column) {
