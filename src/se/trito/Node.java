@@ -6,10 +6,17 @@ public class Node {
 
     public int x;
     public int y;
+    public char c;
 
     public Node(int x, int y) {
         this.x = x;
         this.y = y;
+    }
+
+    public Node(int x, int y, char c) {
+        this.x = x;
+        this.y = y;
+        this.c = c;
     }
 
     public int getManhattanDistance(Node externNode) {
@@ -28,7 +35,8 @@ public class Node {
         if (o == null || getClass() != o.getClass()) return false;
         Node node = (Node) o;
         return x == node.x &&
-                y == node.y;
+                y == node.y &&
+                c == node.c;
     }
 
     @Override
