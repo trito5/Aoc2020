@@ -18,5 +18,8 @@ public class Main {
         Dec04b.run("files/dec04.txt");
         Dec05a.run("files/dec05.txt");
         Dec05b.run("files/dec05.txt");
+        Dec06a.run("files/dec06.txt");
+        Dec06b.run("files/dec06.txt");
+
     }
 }
