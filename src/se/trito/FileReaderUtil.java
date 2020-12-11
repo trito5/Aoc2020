@@ -42,6 +42,19 @@ public class FileReaderUtil {
         return inputs;
     }
 
+    public static List<Long> toLongList(String fileName) {
+        List<Long> inputs = new ArrayList<>();
+        try {
+            inputs = Files.readAllLines(Path.of(fileName))
+                    .stream()
+                    .map(Long::parseLong)
+                    .collect(Collectors.toList());
+        } catch (IOException ex) {
+            System.err.println("Error: " + ex);
+        }
+        return inputs;
+    }
+
     public static List<String> splitOnRegexToStringList(String filename, String regex) {
         List<String> inputs = new ArrayList<>();
         try {

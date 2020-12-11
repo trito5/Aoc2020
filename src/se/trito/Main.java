@@ -3,12 +3,12 @@ package se.trito;
 public class Main {
 
     public static void main(String[] args) {
-        TestReader.run();
-        TestClasses.run();
+/*      TestReader.run();
+        TestClasses.run();*/
 
         System.out.println("-----------------------------");
 
-        Dec01a.run("files/dec01.txt");
+/*      Dec01a.run("files/dec01.txt");
         Dec01b.run("files/dec01.txt");
         Dec02a.run("files/dec02.txt");
         Dec02b.run("files/dec02.txt");
@@ -24,5 +24,11 @@ public class Main {
         Dec07b.run("files/dec07.txt");
         Dec08a.run("files/dec08.txt");
         Dec08b.run("files/dec08.txt");
+        Dec09a.run("files/dec09.txt");
+        Dec09b.run("files/dec09.txt");
+        Dec10a.run("files/dec10.txt");
+        Dec10b.run("files/dec10.txt");
+        Dec11a.run("files/dec11.txt");*/
+        Dec11b.run("files/dec11.txt");
     }
 }
