@@ -8,6 +8,9 @@ public class Node {
     public int y;
     public char c;
 
+    public Node() {
+    }
+
     public Node(int x, int y) {
         this.x = x;
         this.y = y;
@@ -44,8 +47,15 @@ public class Node {
         if (o == null || getClass() != o.getClass()) return false;
         Node node = (Node) o;
         return x == node.x &&
-                y == node.y &&
-                c == node.c;
+                y == node.y;
+    }
+
+    public boolean deepEquals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Node node = (Node) o;
+        return x == node.x &&
+                y == node.y && c == node.c;
     }
 
     @Override
